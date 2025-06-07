@@ -1,8 +1,11 @@
+import { title } from "framer-motion/client";
 import {
   mobile,
   backend,
   creator,
   web,
+  java,
+  python,
   javascript,
   typescript,
   html,
@@ -15,13 +18,6 @@ import {
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
-  carrent,
-  jobit,
-  tripguide,
   threejs,
 } from "../assets";
 
@@ -45,6 +41,9 @@ const services = [
     title: "Web Developer",
     icon: web,
   },
+  {
+    title:"Java Developer"
+    },
   {
     title: "React Native Developer",
     icon: mobile,
